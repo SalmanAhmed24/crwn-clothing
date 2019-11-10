@@ -1,0 +1,21 @@
+.small-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+        .small-menu{
+            width: 30%;
+            margin: 10px;
+            height: 250px;
+            display: flex;
+            flex: 1 1 auto;
+            //flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+                .info-wrap{
+                    padding: 20px;
+                    text-align: center;
+                    border:1px solid grey;
+                }
+        }
+}

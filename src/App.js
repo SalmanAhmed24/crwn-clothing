@@ -1,9 +1,9 @@
 import React from 'react';
-import StoreMenu from './components/StoreMenu/StoreMenu'
+import HomePage from './pages/HomePage/HomePage'
 function App() {
   return (
     <div>
-      <StoreMenu/>
+      <HomePage/>
     </div>
   );
 }
