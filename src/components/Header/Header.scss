@@ -1,0 +1,33 @@
+.header-wraper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top:30px;
+    margin-bottom: 30px;
+        .logo{
+            padding:10px;
+            transition: 0.3s linear;
+                &:hover{
+                    text-decoration: none;
+                    transform:scale(1.03)
+                }
+        }
+        .links-wrap{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+                .links{
+                    padding:20px;
+                    text-decoration: none;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    transition: 0.3s linear;
+                        &:hover{
+                            text-decoration: none;
+                            transform: scale(1.03);
+                        }
+                }
+        }
+}

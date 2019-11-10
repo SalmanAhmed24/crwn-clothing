@@ -1,6 +1,7 @@
 .single-collection-wrap{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .title{
     text-transform: uppercase;
