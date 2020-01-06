@@ -21,14 +21,19 @@ class SignUp extends React.Component{
             alert("The passwords does not match")
             return;
         }
-        const {user} = await auth.createUserWithEmailAndPassword(email,password);
-        createUser(user,{displayName});
-        this.setState({
-            displayName:'',
-            email:'',
-            password:'',
-            confirmPassword:''
-        })
+        try{
+            const {user} = await auth.createUserWithEmailAndPassword(email,password);
+            createUser(user,{displayName});
+            this.setState({
+                displayName:'',
+                email:'',
+                password:'',
+                confirmPassword:''
+            })
+        }
+        catch(error){
+            console.log(error.message);
+        }
     }
     handleChange = event =>{
         event.preventDefault();
