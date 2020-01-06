@@ -6,7 +6,8 @@ class Directory extends React.Component{
     constructor(){
         super();
 
-        this.state =[
+        this.state = {
+          items:[
             {
               title: 'hats',
               imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
@@ -39,10 +40,11 @@ class Directory extends React.Component{
               id: 5,
               linkUrl: ''
             }
-          ];
+          ]
+        }
     }
     render(){
-        const SingleMenuItem = this.state.map(({id, ...otherSectionProps})=>{
+        const SingleMenuItem = this.state.items.map(({id, ...otherSectionProps})=>{
             return <MenuItem key={id} {...otherSectionProps} />
         })
         return(
