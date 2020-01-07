@@ -1,0 +1,17 @@
+.main-cartIcon-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.cartIcon{
+    width: 34px;
+    height: 34px;
+}
+.count-no{
+    position: absolute;
+    top:30px;
+    font-size: 10px;
+}
