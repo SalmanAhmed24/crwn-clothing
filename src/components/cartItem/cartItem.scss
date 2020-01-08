@@ -1,0 +1,28 @@
+.small-cart-wrap{
+    margin-top:5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+     .small-img{
+         width: 30%;
+         height: auto;
+     }
+     .item-info{
+         margin-left: 5px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         .title{
+             font-size: 10px;
+             font-weight: bold;
+             text-transform: uppercase;
+         }
+         .price{
+            font-size: 10px;
+             font-weight: 400;
+         }
+     }
+}
