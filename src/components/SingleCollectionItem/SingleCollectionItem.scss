@@ -6,6 +6,7 @@
     margin:10px;
         &:hover{
             .background-image-div{
+                opacity: 0.8;
                 .button-wrap{
                     display: flex;
                 }
@@ -17,6 +18,7 @@
             background-position: center;
             background-size: cover;
             position: relative;
+            transition: 0.3s linear;
                 .button-wrap{
                     position: absolute;
                     width: 100%;
@@ -26,17 +28,17 @@
                     justify-content: center;
                     align-items: center;
                     transition: 0.3s linear;
-                        button{
-                            background-color: transparentize($color: #000000, $amount: 0.5);
-                            color:white;
-                            border:0px;
-                            padding: 10px 15px;
-                            transition: 0.3s linear;
-                                &:hover{
-                                    transform: scale(1.05);
-                                    background-color: transparentize($color: #000000, $amount: 0);
-                                }
-                        }
+                        // button{
+                        //     background-color: transparentize($color: #000000, $amount: 0.5);
+                        //     color:white;
+                        //     border:0px;
+                        //     padding: 10px 15px;
+                        //     transition: 0.3s linear;
+                        //         &:hover{
+                        //             transform: scale(1.05);
+                        //             background-color: transparentize($color: #000000, $amount: 0);
+                        //         }
+                        // }
                 }
         }
         .collection-info{

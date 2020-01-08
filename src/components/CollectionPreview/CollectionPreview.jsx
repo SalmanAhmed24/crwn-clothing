@@ -7,7 +7,7 @@ const CollectionPreview = ({title,items})=>{
         return idx < 4
     }).map(item=>{
         return(
-            <SingleCollectionItem key={item.id} name={item.name} imageUrl={item.imageUrl} price={item.price} />
+            <SingleCollectionItem key={item.id} item={item} />
         );
     })
     return(
