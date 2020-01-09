@@ -15,3 +15,7 @@ export const selectCartItemCount = createSelector(
         ,0)
     
 )
+export const cartHidden = createSelector(
+    [selectCart],
+    cart=> cart.hidden
+)
