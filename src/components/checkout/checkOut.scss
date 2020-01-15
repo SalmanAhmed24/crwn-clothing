@@ -26,3 +26,15 @@
                 }
         }
 }
+.quan-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+        span{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .arrow{
+            cursor: pointer;
+        }
+}
