@@ -1,0 +1,21 @@
+.cart-header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 80px;
+        .cart-title{
+            text-transform: capitalize;
+            width:20%;
+            font-weight: 700;
+        }
+}
+.total-wrap{
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+        p{
+            font-size: 25px;
+            font-weight: 700;
+        }
+}

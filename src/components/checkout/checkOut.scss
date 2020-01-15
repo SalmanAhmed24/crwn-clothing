@@ -1,0 +1,28 @@
+.checkout-wraper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #f4f4f4;
+        .image-wrap{
+            width: 20%;
+            padding: 10px 0px;
+                .prod-image{
+                    width: 80%;
+                    height: auto;
+                }
+        }
+        .items-wrap{
+            display: flex;
+            width: 20%;
+            flex-direction: column;
+            justify-content: center;
+                .prod-name{
+                    font-size: 16px;
+                }
+                .prod-btn{
+                    border:0px;
+                    background: none;
+                    font-weight: bold;
+                }
+        }
+}
