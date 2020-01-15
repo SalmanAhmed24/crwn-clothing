@@ -6,7 +6,10 @@
         .cart-title{
             text-transform: capitalize;
             width:20%;
-            font-weight: 700;
+            font-weight: 700; 
+                &:last-child{
+                    text-align: center;
+                }
         }
 }
 .total-wrap{
